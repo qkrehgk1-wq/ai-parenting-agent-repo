@@ -42,3 +42,18 @@
 - 리뷰 대기 PR 수
 - unresolved review thread 수
 - 배포 완료 콘텐츠 수
+
+## 6단계
+
+첫 업그레이드 루프도 함께 시작한다.
+
+추천 첫 안건:
+
+- `issues/demo-upgrade-001.md`
+
+추천 흐름:
+
+1. Upgrade Agent가 업그레이드 이슈 정리
+2. Chief Agent가 실험 우선순위 승인
+3. 실험용 PR 자동 요약 형식 정의
+4. GitHub MCP 기반 병목 감지 루프 테스트
