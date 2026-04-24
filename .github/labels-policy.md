@@ -15,6 +15,8 @@
   맞춤형 코칭 또는 상담형 응답 이슈
 - `type:product`
   제품 추천, 비교, 제휴형 이슈
+- `type:upgrade`
+  모델, 프롬프트, MCP, 자동화 운영 개선 이슈
 
 ## Status Labels
 

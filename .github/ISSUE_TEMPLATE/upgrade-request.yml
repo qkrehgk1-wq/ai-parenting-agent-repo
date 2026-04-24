@@ -1,0 +1,56 @@
+name: Upgrade Request
+description: 모델, 프롬프트, MCP 활용, 자동화 흐름 업그레이드 요청
+title: "[업그레이드] "
+labels:
+  - type:upgrade
+body:
+  - type: textarea
+    id: current_problem
+    attributes:
+      label: 현재 문제
+      description: 지금 운영에서 어떤 한계나 병목이 있는지 적어주세요.
+      placeholder: 예) PR 검토 속도는 느리고 안전 검수 기준은 더 구조화가 필요하다
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_upgrade
+    attributes:
+      label: 업그레이드 아이디어
+      description: 바꾸고 싶은 기능이나 방식을 적어주세요.
+      placeholder: 예) 리뷰 전용 에이전트를 강화하고 GitHub MCP 검토 루프를 더 촘촘히 넣고 싶다
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 업그레이드 범위
+      options:
+        - 모델
+        - 프롬프트
+        - MCP 활용
+        - 자동화 워크플로우
+        - GitHub 운영 방식
+        - 분석 체계
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: 운영 영향도
+      options:
+        - 낮음
+        - 중간
+        - 높음
+    validations:
+      required: true
+
+  - type: textarea
+    id: success
+    attributes:
+      label: 성공 기준
+      placeholder: 예) 리뷰 대기 시간을 30% 줄이고 unresolved 리뷰 스레드를 감소시킨다
+    validations:
+      required: true
