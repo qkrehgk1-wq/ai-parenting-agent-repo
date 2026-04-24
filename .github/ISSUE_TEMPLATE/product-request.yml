@@ -1,0 +1,47 @@
+name: Product Recommendation
+description: 육아 제품 비교 및 추천 요청
+title: "[제품] "
+labels:
+  - type:product
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: 사용 상황
+      placeholder: 예) 18개월 아이가 집에서 오래 놀 수 있는 안전한 실내 놀이 교구를 찾고 싶다
+    validations:
+      required: true
+
+  - type: input
+    id: budget
+    attributes:
+      label: 예산
+      placeholder: 예) 5만 원 이하
+
+  - type: textarea
+    id: conditions
+    attributes:
+      label: 조건
+      description: 우선순위 조건을 적어주세요.
+      placeholder: 예) 세척이 쉬워야 하고, 소음이 크지 않아야 한다
+
+  - type: checkboxes
+    id: outputs
+    attributes:
+      label: 원하는 결과물
+      options:
+        - label: 추천표
+        - label: 장단점 비교
+        - label: 상황별 추천 문구
+        - label: 제휴 링크용 소개문
+
+  - type: dropdown
+    id: sensitivity
+    attributes:
+      label: 민감도
+      options:
+        - 일반
+        - 주의
+        - 의료 민감
+    validations:
+      required: true

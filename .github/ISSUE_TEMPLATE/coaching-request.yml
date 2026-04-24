@@ -1,0 +1,51 @@
+name: Coaching Request
+description: 맞춤형 육아 코칭 또는 상황별 응답 생성 요청
+title: "[코칭] "
+labels:
+  - type:coaching
+body:
+  - type: input
+    id: child_age
+    attributes:
+      label: 아이 연령
+      placeholder: 예) 32개월
+    validations:
+      required: true
+
+  - type: textarea
+    id: main_issue
+    attributes:
+      label: 핵심 고민
+      description: 부모가 지금 가장 해결하고 싶은 문제를 적어주세요.
+      placeholder: 예) 어린이집 다녀온 뒤 밤마다 잠들기까지 오래 걸리고 자주 깬다
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 생활 맥락
+      description: 아이 성향, 최근 변화, 부모 상황 등 필요한 배경을 적어주세요.
+      placeholder: 예) 최근 동생이 태어났고, 엄마가 복직을 준비 중이다
+
+  - type: checkboxes
+    id: needs
+    attributes:
+      label: 원하는 결과
+      options:
+        - label: 상황 요약
+        - label: 가능한 원인 후보
+        - label: 오늘 바로 해볼 행동 3가지
+        - label: 부모 대화 예시
+        - label: 전문가 상담 필요 여부 체크
+
+  - type: dropdown
+    id: sensitivity
+    attributes:
+      label: 민감도
+      options:
+        - 일반
+        - 주의
+        - 의료 민감
+    validations:
+      required: true
