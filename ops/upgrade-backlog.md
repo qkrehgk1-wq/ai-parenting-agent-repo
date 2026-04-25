@@ -6,6 +6,9 @@
 
 - 상태: 우선 실험
 - 관련 문서: `issues/demo-upgrade-001.md`
+- 실험 문서: `ops/demo-upgrade-001-experiment.md`
+- 실행 문서: `ops/demo-upgrade-001-runbook.md`
+- 요약 템플릿: `ops/pr-auto-summary-template.md`
 - 기대 효과: 대표 에이전트와 검수 에이전트의 PR 판단 시간 단축
 
 ### 2. 안전 검수 에이전트의 위험 문장 탐지 강화

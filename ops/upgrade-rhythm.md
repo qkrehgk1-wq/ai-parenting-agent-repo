@@ -25,6 +25,7 @@
 - `type:upgrade` 이슈 3~5개 선정
 - 실험 우선순위 결정
 - 실험 PR 생성
+- 실험 결과 코멘트는 `ops/upgrade-issue-comment-template.md` 형식을 사용
 
 ### 분기
 
