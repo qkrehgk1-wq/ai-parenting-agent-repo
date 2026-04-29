@@ -15,13 +15,19 @@
 3. Writer Agent
    PDF 본문 초안을 작성한다
 
-4. Safety Agent
+4. Product Design Agent
+   표지, 레이아웃, 체크리스트 구조를 설계한다
+
+5. Safety Agent
    위험 표현을 검수한다
 
-5. Revenue Agent
+6. Revenue Agent
    가격과 오퍼 구조를 검토한다
 
-6. Distribution Agent
+7. Landing Design Agent
+   판매 페이지 구조와 CTA를 설계한다
+
+8. Distribution Agent
    판매 페이지용 요약 문안으로 변환한다
 
 ## Offer 2. 유료 뉴스레터 생산 루프
@@ -32,10 +38,13 @@
 2. Writer Agent
    무료판과 유료판 차이를 구조화한다
 
-3. Revenue Agent
+3. Brand Design Agent
+   뉴스레터 톤과 시각 요소를 맞춘다
+
+4. Revenue Agent
    가격과 유지 전략을 검토한다
 
-4. Learning Agent
+5. Learning Agent
    오픈율, 클릭률, 전환률을 학습 포인트로 기록한다
 
 ## Offer 3. AI 코치 베타 생산 루프

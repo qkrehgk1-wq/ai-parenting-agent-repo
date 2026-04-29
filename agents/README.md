@@ -11,7 +11,7 @@
 - 금지 행동
 - GitHub MCP 사용 규칙
 
-최소 시작 팀은 아래 11개다.
+최소 시작 팀은 아래 15개다.
 
 1. `chief-agent.md`
 2. `demand-agent.md`
@@ -24,3 +24,7 @@
 9. `growth-agent.md`
 10. `partnership-agent.md`
 11. `learning-agent.md`
+12. `design-director-agent.md`
+13. `product-design-agent.md`
+14. `landing-design-agent.md`
+15. `brand-design-agent.md`
