@@ -20,6 +20,7 @@
 4. 리뷰와 검수 기록 시스템
 5. 자동화된 발행 파이프라인의 운영본부
 6. 기능 업그레이드와 실험 백로그
+7. 수익 실험과 성장 운영 허브
 
 ## 2. 권장 GitHub MCP 활용 방식
 
@@ -52,6 +53,7 @@
 6. 대표 에이전트가 최종 승인 후 배포 에이전트에 전달한다.
 7. 배포 에이전트가 게시용 포맷을 생성하고 분석 에이전트가 성과를 기록한다.
 8. 업그레이드 에이전트가 정기적으로 모델, 프롬프트, MCP 활용, 자동화 구조 개선안을 제안한다.
+9. Revenue Agent, Growth Agent, Partnership Agent가 수익 실험과 반복 매출 구조를 키운다.
 
 ## 4. 디렉터리 개요
 
@@ -84,6 +86,7 @@
 - `type:coaching`
 - `type:product`
 - `type:upgrade`
+- `type:revenue`
 - `status:research`
 - `status:draft`
 - `status:review`

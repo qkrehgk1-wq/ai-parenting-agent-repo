@@ -17,6 +17,8 @@
   제품 추천, 비교, 제휴형 이슈
 - `type:upgrade`
   모델, 프롬프트, MCP, 자동화 운영 개선 이슈
+- `type:revenue`
+  상품, 가격, 전환, 제휴, 멤버십 수익 실험 이슈
 
 ## Status Labels
 

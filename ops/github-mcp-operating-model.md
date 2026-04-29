@@ -19,6 +19,7 @@ GitHub는 단순 코드 저장소가 아니라 에이전트 간 협업 기록을
 - 발행 승인: PR merge 또는 승인 상태
 - 배포 기록: Issue comment
 - 업그레이드 제안: `type:upgrade` Issue + 실험 PR
+- 수익 실험: `type:revenue` Issue + 실험 PR
 
 ## 3. 대표 에이전트의 일일 루틴
 
