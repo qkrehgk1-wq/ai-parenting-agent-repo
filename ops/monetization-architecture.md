@@ -171,3 +171,11 @@
 3. 멤버십 테스트
 4. 제휴 커머스 연결
 5. 이후 B2B 확장
+
+## 연결 문서
+
+- 첫 상품 설계: `ops/first-offers.md`
+- 가격/전환 구조: `ops/pricing-and-funnel.md`
+- 판매 문구: `ops/sales-copy-first-offers.md`
+- 상품 생산 런북: `ops/offer-production-runbook.md`
+- 첫 수익 실험 이슈: `issues/demo-revenue-001.md`
