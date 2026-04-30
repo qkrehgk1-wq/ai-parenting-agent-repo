@@ -1,0 +1,43 @@
+name: Design Planning
+description: 디자인 기획, 레퍼런스 조사, 컨셉 설계 요청
+title: "[디자인기획] "
+labels:
+  - type:upgrade
+body:
+  - type: textarea
+    id: design_target
+    attributes:
+      label: 대상
+      placeholder: 예) 24개월 루틴 가이드 PDF 또는 판매 랜딩페이지
+    validations:
+      required: true
+
+  - type: textarea
+    id: design_goal
+    attributes:
+      label: 목표
+      placeholder: 예) 첫 구매 전환율을 높이고 신뢰를 강화하고 싶다
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: 타깃 고객
+      placeholder: 예) 18~30개월 아이를 둔 맞벌이 부모
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 참고 레퍼런스
+      placeholder: 예) GitHub 레포, 유사 상품, 기존 상세페이지
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: 필요한 결과물
+      placeholder: 예) 디자인 브리프, 컨셉 키워드, 섹션 구조, 썸네일 카피
+    validations:
+      required: true

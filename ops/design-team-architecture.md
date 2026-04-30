@@ -6,6 +6,13 @@
 
 ## 팀 구성
 
+### 0. Design Planning Agent
+
+- 레퍼런스 조사
+- 컨셉 키워드 정리
+- 디자인 브리프 작성
+- 실행 전 우선순위 정의
+
 ### 1. Design Director Agent
 
 - 전체 시각 방향 총괄
