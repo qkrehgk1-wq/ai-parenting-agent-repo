@@ -1,0 +1,42 @@
+name: Kmong Planning
+description: 크몽 판매용 상품/상세페이지/패키지 기획 요청
+title: "[크몽기획] "
+labels:
+  - type:revenue
+body:
+  - type: textarea
+    id: target_product
+    attributes:
+      label: 대상 상품
+      placeholder: 예) 24개월 생활 루틴 가이드 PDF
+    validations:
+      required: true
+
+  - type: textarea
+    id: customer_problem
+    attributes:
+      label: 고객 문제
+      placeholder: 예) 검색은 많이 하지만 바로 적용할 기준이 없어 지친다
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: 판매 형식
+      options:
+        - 전자책/PDF
+        - 메시지 상담
+        - 온라인 상담
+        - 맞춤 제작형
+        - 혼합형
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_assets
+    attributes:
+      label: 필요한 제작물
+      placeholder: 예) 썸네일, 상세페이지 긴 이미지, 패키지 설명, 전달 방식 문구
+    validations:
+      required: true

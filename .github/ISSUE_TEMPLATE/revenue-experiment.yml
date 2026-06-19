@@ -1,0 +1,43 @@
+name: Revenue Experiment
+description: 상품, 가격, 전환, 멤버십, 제휴 수익 실험 요청
+title: "[수익실험] "
+labels:
+  - type:upgrade
+body:
+  - type: textarea
+    id: revenue_problem
+    attributes:
+      label: 현재 수익 문제
+      placeholder: 예) 뉴스레터 구독은 늘지만 유료 전환이 거의 없다
+    validations:
+      required: true
+
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: 실험 가설
+      placeholder: 예) 무료 체크리스트 대신 연령별 PDF를 리드마그넷으로 주면 전환이 올라갈 수 있다
+    validations:
+      required: true
+
+  - type: dropdown
+    id: experiment_type
+    attributes:
+      label: 실험 유형
+      options:
+        - 가격
+        - 오퍼
+        - 전환 문구
+        - 리드 마그넷
+        - 멤버십
+        - 제휴
+    validations:
+      required: true
+
+  - type: textarea
+    id: metric
+    attributes:
+      label: 측정 지표
+      placeholder: 예) 클릭률, 구독 전환율, PDF 판매율, 제휴 링크 클릭률
+    validations:
+      required: true
